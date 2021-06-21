@@ -17,7 +17,9 @@ setup(
                                 'pyir/data/germlines/*',
                                 'pyir/data/germlines/aux_data/*',
                                 'pyir/data/germlines/Ig/human/*',
+                                'pyir/data/germlines/Ig/mouse/*',
                                 'pyir/data/germlines/internal_data/human/*',
+                                'pyir/data/germlines/internal_data/mouse/*',
                                 'pyir/data/germlines/TCR/human/*']
                   },
     include_package_data=True
