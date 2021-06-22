@@ -143,8 +143,8 @@ cd $OUTDIR
 
 # Download igblast internal and aux_data data
 # All data can be manually downloaded here ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release or use the following convenience commands
-wget -mnH --cut-dirs=4 https://ftp.ncbi.nih.gov/blast/executables/igblast/release/old_internal_data/ ./internal_data
-wget -mnH --cut-dirs=5 --directory-prefix=aux_data https://ftp.ncbi.nih.gov/blast/executables/igblast/release/patch/optional_file/ ./
+wget -mnH --cut-dirs=4 ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/internal_data ./
+wget -mnH --cut-dirs=5 --directory-prefix=aux_data ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/optional_file/ ./
 
 cd $MAIN
 
